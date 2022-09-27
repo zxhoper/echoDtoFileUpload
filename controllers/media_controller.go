@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"echo-cloudinary-api/dtos"
-	"echo-cloudinary-api/models"
-	"echo-cloudinary-api/services"
+	"echoDtoFileUpload/dtos"
+	"echoDtoFileUpload/models/models"
+	"echoDtoFileUpload/services/services"
 	"net/http"
 
 	"github.com/labstack/echo/v4"

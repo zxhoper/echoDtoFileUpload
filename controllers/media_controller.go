@@ -41,7 +41,7 @@ func FileUpload(c echo.Context) error {
 			dtos.MediaDto{
 				StatusCode: http.StatusInternalServerError,
 				Message:    "error",
-				Data:       &echo.Map{"data": err.Error()},
+				Data:       &echo.Map{"data=>": err.Error()},
 			})
 	}
 

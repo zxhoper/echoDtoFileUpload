@@ -2,8 +2,8 @@ package controllers
 
 import (
 	"echoDtoFileUpload/dtos"
-	"echoDtoFileUpload/models/models"
-	"echoDtoFileUpload/services/services"
+	"echoDtoFileUpload/models"
+	"echoDtoFileUpload/services"
 	"net/http"
 
 	"github.com/labstack/echo/v4"
